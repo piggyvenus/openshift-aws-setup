@@ -23,14 +23,14 @@ deployment_type: "openshift-enterprise"
 
 # ec2
 # Use ami_id if you know the specific ami you want to use
-ami_id: "ami-f05f5489"
+ami_id: "ami-cfa343b7"
 # Use the owner tag if you want to look up the AMI automatically
 #redhat_owner_id: "309956199498"
 bastion_ami_size: "t2.small"
 master_ami_size: "t2.xlarge"
 node_ami_size: "t2.large"
 master_root_volume_size: 50
-node_root_volume_size: 30
+node_root_volume_size: 50
 docker_volume_size: 50
 
 # The number of application nodes in the cluster
